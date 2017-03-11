@@ -1,0 +1,35 @@
+Version 1.3 28 March 2016
+
+- UPDATED 	: ACF Pro plugin to 5.3.6.1
+
+File Changed:
+
+- plugins/advanced-custom-fields-pro.zip
+
+Changelog version 1.2 21-12-2015
+
+FIXED		: Single post gallery slider
+FIXED		: Long time load contact template
+CHANGED 	: Contact Google Maps field to Textarea Google Maps iFrame Embed
+UPDATED		: ACF plugin to 5.3.2.2
+
+File Changed:
+- style.css
+- inc/function/meta-box.php
+- template/contact-template.php
+- inc/format/content-gallery.php
+- js/main.js
+- js/plugin.js
+- plugins
+
+Changelog version 1.1 28-10-2015
+
+CHANGED	: Default font in option
+CHANGED	: Newsletter widget style
+CHANGED	: Single post meta style
+CHANGED	: Related post font size
+CHANGED	: Comment reply title style
+
+File Changed:
+- style.css
+- inc/option/panel/config.php

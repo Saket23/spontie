@@ -1,0 +1,781 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rinjani\n"
+"POT-Creation-Date: 2015-10-27 13:35+0700\n"
+"PO-Revision-Date: 2015-10-27 13:35+0700\n"
+"Last-Translator: Rizki Akmanda <rizkiakmanda@gmail.com>\n"
+"Language-Team: themesawesome <themesawesome@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPath-2: ..\n"
+"X-Poedit-SearchPath-3: .\n"
+
+#: class-tgm-plugin-activation.php:333
+#: ../rinjani/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:334
+#: ../rinjani/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:335
+#: ../rinjani/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:336
+#: ../rinjani/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:397
+#: ../rinjani/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:398
+#: ../rinjani/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:399 class-tgm-plugin-activation.php:3034
+#: ../rinjani/class-tgm-plugin-activation.php:399
+#: ../rinjani/class-tgm-plugin-activation.php:3034
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:400
+#: ../rinjani/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:401
+#: ../rinjani/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:402
+#: ../rinjani/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:403
+#: ../rinjani/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:404
+#: ../rinjani/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:405
+#: ../rinjani/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2172
+#: ../rinjani/class-tgm-plugin-activation.php:2172
+msgid "Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2175
+#: ../rinjani/class-tgm-plugin-activation.php:2175
+msgid "Recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2191
+#: ../rinjani/class-tgm-plugin-activation.php:2191
+msgid "WordPress Repository"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2194
+#: ../rinjani/class-tgm-plugin-activation.php:2194
+msgid "External Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2197
+#: ../rinjani/class-tgm-plugin-activation.php:2197
+msgid "Pre-Packaged"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2214
+#: ../rinjani/class-tgm-plugin-activation.php:2214
+msgid "Not Installed"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2218
+#: ../rinjani/class-tgm-plugin-activation.php:2218
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2220
+#: ../rinjani/class-tgm-plugin-activation.php:2220
+msgid "Active"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2226
+#: ../rinjani/class-tgm-plugin-activation.php:2226
+msgid "Required Update not Available"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2229
+#: ../rinjani/class-tgm-plugin-activation.php:2229
+msgid "Requires Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2232
+#: ../rinjani/class-tgm-plugin-activation.php:2232
+msgid "Update recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2384
+#: ../rinjani/class-tgm-plugin-activation.php:2384
+msgid "Installed version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2392
+#: ../rinjani/class-tgm-plugin-activation.php:2392
+msgid "Minimum required version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2404
+#: ../rinjani/class-tgm-plugin-activation.php:2404
+msgid "Available version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2427
+#: ../rinjani/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2441
+#: ../rinjani/class-tgm-plugin-activation.php:2441
+msgid "Plugin"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2442
+#: ../rinjani/class-tgm-plugin-activation.php:2442
+msgid "Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2443
+#: ../rinjani/class-tgm-plugin-activation.php:2443
+msgid "Type"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2447
+#: ../rinjani/class-tgm-plugin-activation.php:2447
+msgid "Version"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2448
+#: ../rinjani/class-tgm-plugin-activation.php:2448
+msgid "Status"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2608
+#: ../rinjani/class-tgm-plugin-activation.php:2608
+msgid "Install"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2614
+#: ../rinjani/class-tgm-plugin-activation.php:2614
+msgid "Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2617
+#: ../rinjani/class-tgm-plugin-activation.php:2617
+msgid "Activate"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2648
+#: ../rinjani/class-tgm-plugin-activation.php:2648
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2650
+#: ../rinjani/class-tgm-plugin-activation.php:2650
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2686
+#: ../rinjani/class-tgm-plugin-activation.php:2686
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2688
+#: ../rinjani/class-tgm-plugin-activation.php:2688
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3033
+#: ../rinjani/class-tgm-plugin-activation.php:3033
+msgid "Plugin activation failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3367
+#: ../rinjani/class-tgm-plugin-activation.php:3367
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3369
+#: ../rinjani/class-tgm-plugin-activation.php:3369
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3370
+#: ../rinjani/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3374
+#: ../rinjani/class-tgm-plugin-activation.php:3374
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3375
+#: ../rinjani/class-tgm-plugin-activation.php:3375
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3376
+#: ../rinjani/class-tgm-plugin-activation.php:3376
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3377
+#: ../rinjani/class-tgm-plugin-activation.php:3377
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3380
+#: ../rinjani/class-tgm-plugin-activation.php:3380
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3382
+#: ../rinjani/class-tgm-plugin-activation.php:3382
+msgid "All installations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3383
+#: ../rinjani/class-tgm-plugin-activation.php:3383
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions.php:160 ../rinjani/functions.php:160
+msgid "Primary Sidebar"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:26
+#: ../rinjani/inc/function/akmanda-customizer.php:26
+msgid "Header"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:139
+#: ../rinjani/inc/function/akmanda-customizer.php:139
+msgid "Background Header Top Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:146
+#: ../rinjani/inc/function/akmanda-customizer.php:146
+msgid "Submenu Background Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:153
+#: ../rinjani/inc/function/akmanda-customizer.php:153
+msgid "Submenu Background Hover Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:160
+#: ../rinjani/inc/function/akmanda-customizer.php:160
+msgid "Border Submenu Header Top Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:167
+#: ../rinjani/inc/function/akmanda-customizer.php:167
+msgid "Icon Search Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:174
+#: ../rinjani/inc/function/akmanda-customizer.php:174
+msgid "Background Search Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:181
+#: ../rinjani/inc/function/akmanda-customizer.php:181
+msgid "Menu List Top Header Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:188
+#: ../rinjani/inc/function/akmanda-customizer.php:188
+msgid "Submenu Text  Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:195
+#: ../rinjani/inc/function/akmanda-customizer.php:195
+msgid "Icon Social Media Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:202
+#: ../rinjani/inc/function/akmanda-customizer.php:202
+msgid "Icon Social Media Hover Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:209
+#: ../rinjani/inc/function/akmanda-customizer.php:209
+msgid "Icon Social Media Background Hover Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:216
+#: ../rinjani/inc/function/akmanda-customizer.php:216
+msgid "Header Bottom Background Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:223
+#: ../rinjani/inc/function/akmanda-customizer.php:223
+msgid "Header Bottom Border Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:230
+#: ../rinjani/inc/function/akmanda-customizer.php:230
+msgid "Menu List Header Bottom Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:241
+#: ../rinjani/inc/function/akmanda-customizer.php:241
+msgid "Content"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:474
+#: ../rinjani/inc/function/akmanda-customizer.php:474
+msgid "Background Loop Content (Post) Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:481
+#: ../rinjani/inc/function/akmanda-customizer.php:481
+msgid "Background Loop Post Format Link Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:488
+#: ../rinjani/inc/function/akmanda-customizer.php:488
+msgid "Text Post Format Link Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:495
+#: ../rinjani/inc/function/akmanda-customizer.php:495
+msgid "Border Loop Content (Post) Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:502
+#: ../rinjani/inc/function/akmanda-customizer.php:502
+msgid "Title Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:509
+#: ../rinjani/inc/function/akmanda-customizer.php:509
+msgid "Post Category Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:516
+#: ../rinjani/inc/function/akmanda-customizer.php:516
+msgid "Post Date Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:523
+#: ../rinjani/inc/function/akmanda-customizer.php:523
+msgid "Post Content Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:530
+#: ../rinjani/inc/function/akmanda-customizer.php:530
+msgid "Button Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:537
+#: ../rinjani/inc/function/akmanda-customizer.php:537
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:544
+#: ../rinjani/inc/function/akmanda-customizer.php:544
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:551
+#: ../rinjani/inc/function/akmanda-customizer.php:551
+msgid "Button Text Hover Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:558
+#: ../rinjani/inc/function/akmanda-customizer.php:558
+msgid "Button Share Background Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:565
+#: ../rinjani/inc/function/akmanda-customizer.php:565
+msgid "Button Share Text Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:572
+#: inc/function/akmanda-customizer.php:579
+#: ../rinjani/inc/function/akmanda-customizer.php:572
+#: ../rinjani/inc/function/akmanda-customizer.php:579
+msgid "Social Media Icon Share Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:586
+#: ../rinjani/inc/function/akmanda-customizer.php:586
+msgid "Arrow Button Gallery Post Background Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:593
+#: ../rinjani/inc/function/akmanda-customizer.php:593
+msgid "Arrow Button Gallery Post Icon Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:600
+#: ../rinjani/inc/function/akmanda-customizer.php:600
+msgid "Navigation Previous and Next Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:607
+#: ../rinjani/inc/function/akmanda-customizer.php:607
+msgid "Navigation Previous and Next Hover Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:614
+#: ../rinjani/inc/function/akmanda-customizer.php:614
+msgid "Navigation Text Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:621
+#: ../rinjani/inc/function/akmanda-customizer.php:621
+msgid "Navigation Text Hover Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:628
+#: ../rinjani/inc/function/akmanda-customizer.php:628
+msgid "Link Text Blue Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:635
+#: ../rinjani/inc/function/akmanda-customizer.php:635
+msgid "Link Text Blue Hover Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:642
+#: ../rinjani/inc/function/akmanda-customizer.php:642
+msgid "Button Post Comment Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:649
+#: ../rinjani/inc/function/akmanda-customizer.php:649
+msgid "Button Text Post Comment Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:656
+#: ../rinjani/inc/function/akmanda-customizer.php:656
+msgid "Border Title Widget Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:663
+#: ../rinjani/inc/function/akmanda-customizer.php:663
+msgid "Text and Link Widget Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:670
+#: ../rinjani/inc/function/akmanda-customizer.php:670
+msgid "Author Picture Border Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:677
+#: ../rinjani/inc/function/akmanda-customizer.php:677
+msgid "Border Title Post Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:688
+#: ../rinjani/inc/function/akmanda-customizer.php:688
+msgid "Footer"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:734
+#: ../rinjani/inc/function/akmanda-customizer.php:734
+msgid "Background Footer Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:741
+#: ../rinjani/inc/function/akmanda-customizer.php:741
+msgid "Copyright Text Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:748
+#: ../rinjani/inc/function/akmanda-customizer.php:748
+msgid "Social Icon Footer Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:755
+#: ../rinjani/inc/function/akmanda-customizer.php:755
+msgid "Social Icon Footer Hover Color"
+msgstr ""
+
+#: inc/function/akmanda-customizer.php:762
+#: ../rinjani/inc/function/akmanda-customizer.php:762
+msgid "Footer Link Text Color"
+msgstr ""
+
+#: inc/function/comment.php:16 ../rinjani/inc/function/comment.php:16
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/option/panel/config.php:56 ../rinjani/inc/option/panel/config.php:56
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/option/panel/config.php:73 ../rinjani/inc/option/panel/config.php:73
+msgid "Header Options"
+msgstr ""
+
+#: inc/option/panel/config.php:81 ../rinjani/inc/option/panel/config.php:81
+msgid "Logo"
+msgstr ""
+
+#: inc/option/panel/config.php:82 inc/option/panel/config.php:129
+#: ../rinjani/inc/option/panel/config.php:82
+#: ../rinjani/inc/option/panel/config.php:129
+msgid "Upload your logo here (any size)."
+msgstr ""
+
+#: inc/option/panel/config.php:91 ../rinjani/inc/option/panel/config.php:91
+msgid "Background Options"
+msgstr ""
+
+#: inc/option/panel/config.php:98 ../rinjani/inc/option/panel/config.php:98
+msgid "Body Background"
+msgstr ""
+
+#: inc/option/panel/config.php:99 ../rinjani/inc/option/panel/config.php:99
+msgid "Body background with image, color, etc."
+msgstr ""
+
+#: inc/option/panel/config.php:110 ../rinjani/inc/option/panel/config.php:110
+msgid "Footer Options"
+msgstr ""
+
+#: inc/option/panel/config.php:117 ../rinjani/inc/option/panel/config.php:117
+msgid "Allow Page Comment"
+msgstr ""
+
+#: inc/option/panel/config.php:118 ../rinjani/inc/option/panel/config.php:118
+msgid "This option allow you to turn on or off your page comment."
+msgstr ""
+
+#: inc/option/panel/config.php:119 ../rinjani/inc/option/panel/config.php:119
+msgid "Check the box for display comment."
+msgstr ""
+
+#: inc/option/panel/config.php:128 ../rinjani/inc/option/panel/config.php:128
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/option/panel/config.php:136 ../rinjani/inc/option/panel/config.php:136
+msgid "Footer Text"
+msgstr ""
+
+#: inc/option/panel/config.php:137 ../rinjani/inc/option/panel/config.php:137
+msgid "Add Your Copyright Here"
+msgstr ""
+
+#: inc/option/panel/config.php:148 ../rinjani/inc/option/panel/config.php:148
+msgid "Typography Options"
+msgstr ""
+
+#: inc/option/panel/config.php:156 ../rinjani/inc/option/panel/config.php:156
+msgid "Body Options"
+msgstr ""
+
+#: inc/option/panel/config.php:170 ../rinjani/inc/option/panel/config.php:170
+msgid "Set website body font (leave form empty if you want to use default)"
+msgstr ""
+
+#: inc/option/panel/config.php:186 ../rinjani/inc/option/panel/config.php:186
+msgid "Heading Typography"
+msgstr ""
+
+#: inc/option/panel/config.php:200 ../rinjani/inc/option/panel/config.php:200
+msgid "Set website heading font (leave form empty if you want to use default)"
+msgstr ""
+
+#: inc/option/panel/config.php:215 ../rinjani/inc/option/panel/config.php:215
+msgid "Menu Typography"
+msgstr ""
+
+#: inc/option/panel/config.php:229 ../rinjani/inc/option/panel/config.php:229
+msgid "Set website menu font (leave form empty if you want to use default)"
+msgstr ""
+
+#: inc/option/panel/config.php:244 ../rinjani/inc/option/panel/config.php:244
+msgid "Social Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:250 ../rinjani/inc/option/panel/config.php:250
+msgid "Facebook Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:258 ../rinjani/inc/option/panel/config.php:258
+msgid "twitter Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:267 ../rinjani/inc/option/panel/config.php:267
+msgid "Google+ Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:276 ../rinjani/inc/option/panel/config.php:276
+msgid "linkedin Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:285 ../rinjani/inc/option/panel/config.php:285
+msgid "Pinterest Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:293 ../rinjani/inc/option/panel/config.php:293
+msgid "Dribble Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:301 ../rinjani/inc/option/panel/config.php:301
+msgid "Flickr Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:309 ../rinjani/inc/option/panel/config.php:309
+msgid "Behance Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:317 ../rinjani/inc/option/panel/config.php:317
+msgid "Youtube Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:325 ../rinjani/inc/option/panel/config.php:325
+msgid "Soundcloud Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:333 ../rinjani/inc/option/panel/config.php:333
+msgid "Codepen Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:341 ../rinjani/inc/option/panel/config.php:341
+msgid "Deviantart Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:349 ../rinjani/inc/option/panel/config.php:349
+msgid "Digg Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:357 ../rinjani/inc/option/panel/config.php:357
+msgid "Dropbox Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:365 ../rinjani/inc/option/panel/config.php:365
+msgid "Github Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:373 ../rinjani/inc/option/panel/config.php:373
+msgid "Instagram Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:381 ../rinjani/inc/option/panel/config.php:381
+msgid "Skype Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:389 ../rinjani/inc/option/panel/config.php:389
+msgid "Spotify Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:397 ../rinjani/inc/option/panel/config.php:397
+msgid "Steam Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:405 ../rinjani/inc/option/panel/config.php:405
+msgid "Trello Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:413 ../rinjani/inc/option/panel/config.php:413
+msgid "Tumblr Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:421 ../rinjani/inc/option/panel/config.php:421
+msgid "Vimeo Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:429 ../rinjani/inc/option/panel/config.php:429
+msgid "Wechat Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:437 ../rinjani/inc/option/panel/config.php:437
+msgid "Weibo Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:445 ../rinjani/inc/option/panel/config.php:445
+msgid "WordPress Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:453 ../rinjani/inc/option/panel/config.php:453
+msgid "Xing Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:461 ../rinjani/inc/option/panel/config.php:461
+msgid "Yahoo Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:469 ../rinjani/inc/option/panel/config.php:469
+msgid "Yelp Profile"
+msgstr ""
+
+#: inc/option/panel/config.php:492 ../rinjani/inc/option/panel/config.php:492
+msgid "Theme Information 1"
+msgstr ""
+
+#: inc/option/panel/config.php:493 ../rinjani/inc/option/panel/config.php:493
+msgid "<p>Please go to themesawesome.com to get support</p>"
+msgstr ""
+
+#: inc/option/panel/config.php:509 inc/option/panel/config.php:510
+#: ../rinjani/inc/option/panel/config.php:509
+#: ../rinjani/inc/option/panel/config.php:510
+msgid "Options"
+msgstr ""
+
+#: inc/widget/ads-widget.php:87 ../rinjani/inc/widget/ads-widget.php:87
+msgid "Example"
+msgstr ""

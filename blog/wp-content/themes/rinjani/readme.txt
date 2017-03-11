@@ -1,0 +1,3 @@
+Rinjani is a Grid WordPress Blog Themes. This theme is perfect choice for your personal blog, niche blog, corporate blog, marketing blog, authority blog or any type of creative blog. Built by effortlessly timeless style and support any type of post format, Rinjani is designed with flexible color to customize by yourself. So, you would be able to choose whatever color that you like. 
+
+Rinjani is highly optimized for both mobile and desktop platforms. The layout also will encourage your viewers to read all of your content and get all attention it deserves. Just contact us for our personal help!

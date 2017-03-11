@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Chat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/framework.css">
+  <link rel="stylesheet" type="text/css" href="css/washington.css">
+  <script src="js/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Montserrat:400,700"]
+      }
+    });
+  </script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="images/logoStandford32.ico">
+  <link rel="apple-touch-icon" href="images/logoStandford32.ico">
+
+  <link href="css/ionicons.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <section class="w-section mobile-wrapper">
+
+    <div class="page-content" id="main-stack">
+      <div class="w-nav navbar" data-collapse="all" data-animation="over-left" data-duration="400" data-contain="1" data-easing="ease-out-quint" data-no-scroll="1">
+        <div class="w-container">
+          <div class="wrapper-mask" data-ix="menu-mask"></div>
+          <div class="navbar-title">Chat</div>
+          <a class="w-inline-block navbar-button" href="messages.html" data-load="1">
+            <div class="navbar-button-icon icon ion-ios-arrow-thin-left"></div>
+          </a>
+          <a class="w-inline-block navbar-button right" href="settings.html" data-ix="search-box">
+            <div class="navbar-button-icon smaller icon ion-ios-gear-outline" data-load="1"></div>
+          </a>
+        </div>
+      </div>
+      <div class="body">
+        <ul class="list list-chats">
+          <li class="w-clearfix list-chat" data-ix="list-item">
+            <div class="column-left chat">
+              <div class="image-message chat"><img src="images/128 (4).jpg">
+              </div>
+            </div>
+            <div class="w-clearfix column-right chat">
+              <div class="arrow-globe"></div>
+              <div class="chat-text">Yesterday I went to see Mike, he has just arrived to the city he is a cool dude! you will meet him soon...</div>
+              <div class="chat-time">3 mins ago</div>
+            </div>
+          </li>
+          <li class="list-chat right" data-ix="list-item">
+            <div class="w-clearfix column-right chat right">
+              <div class="arrow-globe right"></div>
+              <div class="chat-text right">Great! how was it? what did you do?</div>
+              <div class="chat-time right">3 min ago</div>
+            </div>
+          </li>
+          <li class="w-clearfix list-chat" data-ix="list-item">
+            <div class="column-left chat">
+              <div class="image-message chat"><img src="images/128 (4).jpg">
+              </div>
+            </div>
+            <div class="w-clearfix column-right chat">
+              <div class="arrow-globe"></div>
+              <div class="chat-text">I went to his brother’s house.</div>
+              <div class="chat-time">1 min ago</div>
+            </div>
+          </li>
+          <li class="list-chat right" data-ix="list-item">
+            <div class="w-clearfix column-right chat right">
+              <div class="arrow-globe right"></div>
+              <div class="chat-text right">Oh my god!</div>
+              <div class="chat-time right">50 sec ago</div>
+            </div>
+          </li>
+          <li class="w-clearfix list-chat" data-ix="list-item">
+            <div class="column-left chat">
+              <div class="image-message chat"><img src="images/128 (4).jpg">
+              </div>
+            </div>
+            <div class="w-clearfix column-right chat">
+              <div class="arrow-globe"></div>
+              <div class="chat-text">it was great, we had so much fun playing some games.</div>
+              <div class="chat-time">30 sec ago</div>
+            </div>
+          </li>
+          <li class="list-chat right" data-ix="list-item">
+            <div class="w-clearfix column-right chat right">
+              <div class="arrow-globe right"></div>
+              <div class="chat-text right">douh! what sort of games...?</div>
+              <div class="chat-time right">20 sec ago</div>
+            </div>
+          </li>
+          <li class="list-chat right" data-ix="list-item">
+            <div class="w-clearfix column-right chat right">
+              <div class="arrow-globe right"></div>
+              <div class="chat-text right">I mean...</div>
+              <div class="chat-time right">15 sec ago</div>
+            </div>
+          </li>
+          <li class="w-clearfix list-chat" data-ix="list-item">
+            <div class="column-left chat">
+              <div class="image-message chat"><img src="images/128 (4).jpg">
+              </div>
+            </div>
+            <div class="w-clearfix column-right chat">
+              <div class="arrow-globe"></div>
+              <div class="chat-text">We played COD 3 and Batelfield, it was a proper war mate! hahah</div>
+              <div class="chat-time">7 sec ago</div>
+            </div>
+          </li>
+          <li class="list-chat right" data-ix="list-item">
+            <div class="w-clearfix column-right chat right">
+              <div class="arrow-globe right"></div>
+              <div class="chat-text right">oh!! cool!</div>
+              <div class="chat-time right">just now</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="input-chat-block">
+        <div class="w-form">
+          <form class="w-clearfix" id="wf-form-Send" name="wf-form-Send" data-name="Send" action="#">
+            <input class="w-input input-chat" id="chat-message" type="text" placeholder="Your message" name="email" data-name="Email" required="required">
+            <input class="w-button chat-button" type="submit" value="Send" data-wait="Please wait...">
+          </form>
+          <div class="w-form-done">
+            <p>Thank you! Your submission has been received!</p>
+          </div>
+          <div class="w-form-fail">
+            <p>Oops! Something went wrong while submitting the form</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page-content loading-mask" id="new-stack">
+      <div class="loading-icon">
+        <div class="navbar-button-icon icon ion-load-d"></div>
+      </div>
+    </div>
+    <div class="shadow-layer"></div>
+  </section>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/framework.js"></script>
+  <!--[if lte IE 9]><script src="js/placeholders.min.js"></script><![endif]-->
+</body>
+</html>

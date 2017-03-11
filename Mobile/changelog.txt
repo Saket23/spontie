@@ -1,0 +1,10 @@
+# Version 1.0
+
+- Template released.
+
+
+# Version 1.5
+
+- Increased page loading times.
+- Boost performance.
+- Logo icon optimised.
