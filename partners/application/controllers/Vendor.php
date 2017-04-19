@@ -239,6 +239,8 @@ class Vendor extends CI_Controller
             $data['sub_category']       = $this->input->post('sub_category');
             $data['sale_price']         = $this->input->post('sale_price');
             $data['purchase_price']     = $this->input->post('purchase_price');
+			 $data['csale']         = $this->input->post('csale');
+            $data['cpurchase']     = $this->input->post('cpurchase');
 			$data['day']     			= $this->input->post('day');
             $data['add_timestamp']      = time();
             $data['featured']           = '0';

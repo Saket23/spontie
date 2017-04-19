@@ -88,24 +88,44 @@
 </section>
  <section>
             <!--<a class="w-inline-block" href="newitem.html" data-load="1">-->
-			<?php echo'<a class="w-inline-block" href="product.php?city=Ho Chi Minh" data-load="1">';?>
-              <div class="image-new bg3"><h2><div class="text">HO CHI MINH CITY</div></h2></div>
+			<?php echo'<a class="w-inline-block" href="product.php?city=Dubai" data-load="1">';?>
+              <div class="image-new bg3"><h2><div class="text">DUBAI</div></h2></div>
               <!--<div class="text-new">
                 <h2 class="title-new">Superfruits for a longer and stronger health.</h2>
                 <p class="description-new">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat....</p><a class="category-link" href="#">PRODUCTIVITY</a><a class="category-link" href="#">BUSINESS</a>
               </div>-->
             </a>
 </section>
-<section>
+ <section>
             <!--<a class="w-inline-block" href="newitem.html" data-load="1">-->
-			<?php echo'<a class="w-inline-block" href="product.php?city=Pattaya" data-load="1">';?>
-              <div class="image-new bg1"><h2><div class="text">PATTAYA</div></h2></div>
+			<?php echo'<a class="w-inline-block" href="product.php?city=Abu Dhabi" data-load="1">';?>
+              <div class="image-new bg4"><h2><div class="text">ABU-DHABI</div></h2></div>
               <!--<div class="text-new">
-                <h2 class="title-new">Travel tips for Africa adventures surviving in the desert</h2>
+                <h2 class="title-new">Superfruits for a longer and stronger health.</h2>
                 <p class="description-new">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat....</p><a class="category-link" href="#">PRODUCTIVITY</a><a class="category-link" href="#">BUSINESS</a>
               </div>-->
             </a>
-			</section>
+</section>
+ <section>
+            <!--<a class="w-inline-block" href="newitem.html" data-load="1">-->
+			<?php echo'<a class="w-inline-block" href="product.php?city=Pattaya" data-load="1">';?>
+              <div class="image-new bg5"><h2><div class="text">PATTAYA</div></h2></div>
+              <!--<div class="text-new">
+                <h2 class="title-new">Superfruits for a longer and stronger health.</h2>
+                <p class="description-new">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat....</p><a class="category-link" href="#">PRODUCTIVITY</a><a class="category-link" href="#">BUSINESS</a>
+              </div>-->
+            </a>
+</section>
+ <section>
+            <!--<a class="w-inline-block" href="newitem.html" data-load="1">-->
+			<?php echo'<a class="w-inline-block" href="product.php?city=Phuket" data-load="1">';?>
+              <div class="image-new bg6"><h2><div class="text">PHUKET</div></h2></div>
+              <!--<div class="text-new">
+                <h2 class="title-new">Superfruits for a longer and stronger health.</h2>
+                <p class="description-new">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat....</p><a class="category-link" href="#">PRODUCTIVITY</a><a class="category-link" href="#">BUSINESS</a>
+              </div>-->
+            </a>
+</section>
     <div class="page-content loading-mask" id="new-stack">
       <div class="loading-icon">
         <div class="navbar-button-icon icon ion-load-d"></div>

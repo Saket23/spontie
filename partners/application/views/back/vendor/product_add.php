@@ -1,4 +1,8 @@
 <link href="<?php echo base_url(); ?>Multiselect/jquery.multiselect.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/angulartrix/css/trix.css">
+<script src="/angulartrix/js/angular.js"></script>
+<script src="/angulartrix/js/trix.js"></script>
+<script src="/angulartrix/dist/angular-trix.min.js"></script>
 <div class="row">
     <div class="col-md-12">
         <?php
@@ -102,6 +106,23 @@
                                         <option value="amount"><?php echo currency(); ?></option>
                                     </select>
                                 </div>
+                                <span class="btn unit_set"></span>
+                            </div>
+							  <div class="form-group btm_border">
+                                <label class="col-sm-4 control-label" for="demo-hor-6">Child Sale Price</label>
+                                <div class="col-sm-4">
+                                    <input type="number" name="csale" id="demo-hor-6" min='0' step='.01' placeholder="Child Sale Price" class="form-control required">
+                                </div>
+                                <span class="btn"><?php echo currency(); ?> / </span>
+                                <span class="btn unit_set"></span>
+                            </div>
+                            
+                            <div class="form-group btm_border">
+                                <label class="col-sm-4 control-label" for="demo-hor-7">Child Purchase Price</label>
+                                <div class="col-sm-4">
+                                    <input type="number" name="cpurchase" id="demo-hor-7" min='0' step='.01' placeholder="Child Purchase Price" class="form-control required">
+                                </div>
+                                <span class="btn"><?php echo currency(); ?> / </span>
                                 <span class="btn unit_set"></span>
                             </div>
 							<div id="more_price"></div>
@@ -310,6 +331,7 @@
 							<div class="form-group">
                              <label class="col-sm-4 control-label" for="demo-hor-5">Time</label>
 							<select name="time[]" >
+							<option>Select Time</option>
 							<option value="7">7 AM</option>
 							<option value="8">8 AM</option>
 							<option value="9">9 AM</option>
@@ -353,7 +375,8 @@
                         <div class="form-group btm_border">
                                 <label class="col-sm-4 control-label" for="demo-hor-13">Summary</label>
                                 <div class="col-sm-6">
-                                    <textarea rows="9"  class="summernotes" data-height="200" data-name="description"></textarea>
+                                   <!-- <textarea rows="9"  class="summernotes" data-height="200" data-name="description"></textarea>-->
+									<trix-editor angular-trix ng-model="foo" class="trix-content" data-name="description"></trix-editor>
                                 </div>
                             </div>
 							
@@ -437,6 +460,9 @@
 <script src="<?php echo base_url(); ?>Multiselect/jquery.multiselect.js"></script>
 <script src="<?php echo base_url(); ?>Multiselect/jquery.multiselect.js"></script>
 <script>
+$("#demo-hor-5").change(function(){
+    alert("The text has been changed.");
+});
     window.preview = function (input) {
         if (input.files && input.files[0]) {
             $("#previewImg").html('');
@@ -499,6 +525,25 @@
     }
 
     function other_forms(){}
+	    function trix(){
+        $('.trix-content').each(function() {
+		/*alert(1);
+            var now = $(this);
+            //var h = now.data('height');
+            var n = now.data('name');
+            now.closest('div').append('<input type="hidden" class="val" name="'+n+'">');
+            now.trix-content({
+                //height: h,
+                onChange: function() {
+                    now.closest('div').find('.val').val(now.code());
+                }
+            });
+            now.closest('div').find('.val').val(now.code());
+        });*/
+		 $('#trix-input-1').attr('name', 'description');
+		 });
+    }
+	
     
     function set_summer(){
         $('.summernotes').each(function() {
@@ -544,6 +589,7 @@
         set_select();
         set_summer();
         createColorpickers();
+		trix();
     });
 
     function other(){
@@ -643,6 +689,13 @@ $( document ).ready(function() {
 			+'<br>'
 			+'<div>'
             +'<input type="number" name="purchase_price1[]" id="demo-hor-6"  placeholder="Purchase Price" class="form-control required">'
+            +            '</div>'
+			+'<br>'
+			 +'<input type="number" name="csale_price1[]" id="demo-hor-6"  placeholder="Child Sale Price" class="form-control required">'
+            +            '</div>'
+			+'<br>'
+			+'<div>'
+            +'<input type="number" name="cpurchase_price1[]" id="demo-hor-6"  placeholder="Child Purchase Price" class="form-control required">'
             +            '</div>'
 			+'<br>'
 			+'<div>'

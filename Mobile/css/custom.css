@@ -216,7 +216,7 @@ bottom: 0;
 }
 
 .date_dt:hover {  
-  color: #ff4203;
+  color: #C40323;
   cursor: pointer;
 }
 
@@ -242,19 +242,19 @@ bottom: 0;
   padding: 30px 8px;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  color: #282828;
-  background-color: #ff4203;
+  color: #ffffff;
+  background-color: #C40323;
 }
 
 .time:hover {
-  background-color: #ff4203;
+  background-color: #C40323;
   color: #fff;
   cursor: pointer;
 }
 
 
 .time1:hover {
-  background-color: #ff4203;
+  background-color: #C40323;
   color: #fff;
   cursor: pointer;
 }
@@ -284,7 +284,7 @@ bottom: 0;
 .qty_row_row a {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
-  color: #ff4203;
+  color: #C40323;
   text-decoration: none;
 }
 

@@ -35,6 +35,18 @@
   ga('send', 'pageview');
 
 </script>
+<script>
+/*$( document ).ready(function() {
+var city1=getCity();
+alert(city1);
+if(city1!="Goa")
+{
+	$(".currency").removeClass("fa fa-inr");
+	$(".currency").addClass("fa fa-usd");
+}
+});*/
+
+</script>
 
   <script type="text/javascript" src="js/modernizr.js"></script>
   <link rel="shortcut icon" type="image/x-icon" href="images/Favicon.png">
@@ -85,28 +97,60 @@
 			</section>
 			   <?php
 				 			try {
+			if($_GET['city']=="Goa"||$_GET['city']=="Bali")
+			{
 			$stmt = mysql_query("SELECT product_id,location,title,sale_price,purchase_price,discount FROM product where city='".$_GET['city']."'")or die(mysql_error());
 			while ($row = mysql_fetch_array($stmt)) {
 			$pic1='http://spontieapp.com/partners/uploads/product_image/Product_'.$row['product_id'].'_1.jpg';
 			echo '<section>';
             echo'<a class="w-inline-block" href="experience.php?id='.$row['product_id'].'" data-load="1">';?>
-              <div class="image-new1" style="background-image: url(<?php echo $pic1;?>); background-size: cover;background-repeat:no-repeat;"><div class="text1"><?php echo $row['title'];?></div>
+              <div class="image-new1" style="background-image:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(<?php echo $pic1;?>); background-size: cover;background-repeat:no-repeat;"><div class="text1"><?php echo $row['title'];?></div>
 			  <?php
+			  if($_GET['city']=="Goa")
+			  {
 			  echo '<div class="text2"><strike style="color:yellow;"><i class="fa fa-inr" style="font-size:10px;color:white"></i>'.substr($row['sale_price'],0,-3).'</strike></div>';
-			  echo '<div class="text3"><i class="fa fa-inr" style="font-size:20px;color:white"></i>'.substr($row['purchase_price'],0,-3).'</div>';?>
+			  echo '<div class="text3"><i id="currency" class="fa fa-inr" style="font-size:20px;color:white"></i>'.substr($row['purchase_price'],0,-3).'</div>';
+			  }
+			  else
+			  {
+				  echo '<div class="text2"><strike style="color:yellow;"><i class="fa fa-usd" style="font-size:10px;color:white"></i>'.substr($row['sale_price'],0,-3).'</strike></div>';
+				  echo '<div class="text3"><i id="currency" class="fa fa-usd" style="font-size:20px;color:white"></i>'.substr($row['purchase_price'],0,-3).'</div>';
+			  }
+			  ?>
 			  <div class="text4">Save upto <?php echo $row['discount'];?>%</div>
-			  <div class="text5"><?php echo $row['location'];?></div>
-			  <div class="text6"><?php echo rand(10, 99);?> tickets booked in last 12 hours</div>
+			  <div class="text8"><?php echo rand(1, 29);?> tickets booked in last 12 hours</div>
+			  <div class="text7"><?php echo $row['location'];?></div>
+			  
 			 </div>
 			  <?php
             echo '</a>';
 echo '</section>';
 			}
+			}
+			else
+			{
+				echo '<script language="javascript">';
+				echo 'alert("We are launching soon in your city!! Stay Tuned or visit Goa or Bali to Experience Spontie until 20th April")';
+				//echo 'window.location = "/city.php";'
+				//redirect("/city.php",303);
+				echo '</script>';
+			}
 							}catch(PDOException $e) {
 			    echo $e->getMessage();
 			}
+			function redirect($url, $statusCode = 303)
+{
+   header('Location: ' . $url, true, $statusCode);
+   die();
+}
 		?>
-  </section>
+		<script>
+			function getCity()
+	{
+			var city1 = <?php echo json_encode($_GET['city']); ?>;
+			return city1;
+	}
+		</script>
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/framework.js"></script>
   <!--[if lte IE 9]><script src="js/placeholders.min.js"></script><![endif]-->

@@ -90,8 +90,26 @@
                                 </div>
                                 <span class="btn unit_set"></span>
                             </div>
-                        </div>
-                    
+                        
+						
+						  <div class="form-group btm_border">
+                                <label class="col-sm-4 control-label" for="demo-hor-6">Child Sale Price</label>
+                                <div class="col-sm-4">
+                                    <input type="number" name="csale_price" id="demo-hor-6" min='0' step='.01' placeholder="Child Sale Price" class="form-control required">
+                                </div>
+                                <span class="btn"><?php echo currency(); ?> / </span>
+                                <span class="btn unit_set"></span>
+                            </div>
+                            
+                            <div class="form-group btm_border">
+                                <label class="col-sm-4 control-label" for="demo-hor-7">Child Purchase Price</label>
+                                <div class="col-sm-4">
+                                    <input type="number" name="cpurchase_price" id="demo-hor-7" min='0' step='.01' placeholder="Child Purchase Price" class="form-control required">
+                                </div>
+                                <span class="btn"><?php echo currency(); ?> / </span>
+                                <span class="btn unit_set"></span>
+                            </div>
+                    </div>
                     
                         <div id="customer_choice_options" class="tab-pane fade">
                             <div class="form-group btm_border">

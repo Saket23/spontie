@@ -66,7 +66,7 @@ $var1='http://spontieapp.com/partners/uploads/product_image/product_'.$_GET['id'
       <div class="body">
 	  <?php  
 require 'dbconnect.php';
-$stmt = mysql_query("SELECT product_id,description,duration,discount,title,highlights,inclusions,exclusions,your_tickets,additional_information,location,purchase_price,sale_price,discount,
+$stmt = mysql_query("SELECT product_id,description,duration,discount,title,highlights,city,inclusions,exclusions,your_tickets,additional_information,location,purchase_price,sale_price,discount,
 time,Longitude,Latitude
 FROM product where product_id='".$_GET['id']."'")or die(mysql_error());
 $row = mysql_fetch_array($stmt);
@@ -78,14 +78,26 @@ $time1name = json_decode($time1->{'name'})
 ?>
             <div class="w-slider hero-slider" data-animation="slide" data-duration="500" data-infinite="1" data-nav-spacing="5" data-delay="4000" data-autoplay="1">
               <div class="w-slider-mask">
-                <div class="w-slide" style="background-image: url(<?php echo $var1;?>);background-size: cover;background-repeat:no-repeat;"></div>				
-                <div class="w-slide" style="background-image: url(<?php echo $var2;?>);background-size: cover;background-repeat:no-repeat;"></div>
-                <div class="w-slide" style="background-image: url(<?php echo $var3;?>);background-size: cover;background-repeat:no-repeat;">
+                <div class="w-slide" style="background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),url(<?php echo $var1;?>);background-size: cover;background-repeat:no-repeat;"></div>				
+                <div class="w-slide" style="background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),url(<?php echo $var2;?>);background-size: cover;background-repeat:no-repeat;"></div>
+                <div class="w-slide" style="background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),url(<?php echo $var3;?>);background-size: cover;background-repeat:no-repeat;">
 				</div>
 				<div class="textx"><?php echo $row['title'];?></div>
-				<div class="text2"><strike style="color:yellow;"><i class="fa fa-inr" style="font-size:10px;color:white"></i><?php echo $row['sale_price'];?></strike></div>
-			  <div class="text3"><i class="fa fa-inr" style="font-size:20px;color:white"></i><?php echo $row['purchase_price'];?></div>
+				<?php
+				if($row['city']=="Goa")
+				{
+				echo '<div class="text2"><strike style="color:yellow;"><i class="fa fa-inr" style="font-size:10px;color:white"></i>'.$row['sale_price'].'</strike></div>';
+				echo '<div class="text3"><i class="fa fa-inr" style="font-size:20px;color:white"></i>'.$row['purchase_price'].'</div>';
+				}
+				else
+				{
+					echo '<div class="text2"><strike style="color:yellow;"><i class="fa fa-usd" style="font-size:10px;color:white"></i>'.$row['sale_price'].'</strike></div>';
+					echo '<div class="text3"><i class="fa fa-usd" style="font-size:20px;color:white"></i>'.$row['purchase_price'].'</div>';
+				}
+			  ?>
 			  <div class="text4">Save upto <?php echo $row['discount'];?>%</div>
+			  <!--<div class="text6"><//?php echo rand(1, 29);?> tickets booked in last 12 hours</div>-->
+			  <div class="text5"><?php echo $row['location'];?></div>
               </div>
               <div class="w-slider-nav w-round slider-bullets"></div>
             </div>
@@ -97,17 +109,29 @@ $time1name = json_decode($time1->{'name'})
 			<div class="grey-header">
               <p style="text-align:center">Duration : <?php echo $row['duration'];?></p>
             </div>
+			<?php
+			if($row['description'])
+			{
+				?>
               <div class="separator-fields"></div>
               <h2 class="title-new">Summary</h2>
               <div class="separator-fields"></div>		 
 			  <?php echo $row['description'];?>
                <div class="separator-button"></div>
+			   <?php
+			}
+			?>
+			<?php
+			if($time1name)
+			{
+				?>
+			
 			   <div class="grey-header">
               <p style="text-align:left;">Schedule:<br>
 			  <?php	
 			   //echo sizeof($time1name);
 			   
-			   function gettimez($tim)
+function gettimez($tim)
 {
 	if($tim=='7')
 	{
@@ -202,21 +226,52 @@ $time1name = json_decode($time1->{'name'})
 						  }*/
 				  }
 			  ?> </p>
+			     <?php
+			}
+			?>
             </div>
+			<?php
+			if($row['highlights']!='                                        <p><br></p>')
+			{
+				?>
               <h2 class="title-new">Highlights</h2>
               <p class="description-new">
 			  <?php echo $row['highlights'];?>
 			  </p>
               <div class="separator-button"></div>
               <div class="separator-button"></div>
+			  <?php
+			}
+			?>
+			<?php
+			if($row['inclusions']!='                                        <p><br></p>')
+			{
+				?>
 			  <h2 class="title-new">Inclusions</h2>
                <p class="description-new"><?php echo $row['inclusions'];?> </p>
+			     <?php
+			}
+			?>
+			<?php
+			if($row['exclusions']!='                                        <p><br></p>')
+			{
+				?>			
 			  <h2 class="title-new">Exclusions</h2>
                <p class="description-new"><?php echo $row['exclusions'];?> </p>
+			      <?php
+			}
+			?>
 			  <h2 class="title-new">Your Ticket</h2>
-               <p class="description-new">Your tickets will be emailed to you within 20 minutes of your purchase. You must carry a printed copy of the tickets to the venue along with valid photo ID. </p>
+               <div>Your tickets will be emailed to you within 20 minutes of your purchase. You must carry a printed copy of the tickets to the venue along with valid photo ID.</div>
+			   <?php
+			if($row['additional_information']!='                                        <p><br></p>')
+			{
+				?>	
 			   <h2 class="title-new">Additional Information</h2>
                <p class="description-new"><?php echo $row['additional_information'];?> </p>
+			         <?php
+			}
+			?>
 			  <h2 class="title-new">Where</h2>
                <p class="description-new"><?php echo $row['location'];?> </p>
 			  <br>

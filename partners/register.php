@@ -70,7 +70,7 @@
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <!--<a class="navbar-brand page-scroll" href="#page-top">Start Spontaneity</a>-->
-				<div class="navbar-brand page-scroll" style="width: 400px;font-size: 20px;font-family:Lulo Clean W01 One,sans-serif;"><a href="www.spontieapp.com" style="color:#BADA55;text-decoration: none;"><b>SPONTIE</b></a></div><br>
+				<div class="navbar-brand page-scroll" style="width: 400px;font-size: 20px;font-family:Lulo Clean W01 One,sans-serif;"><a href="../" style="color:#BADA55;text-decoration: none;"><b>SPONTIE</b></a></div><br>
 				<!--<div class="navbar-brand page-scroll" style= "color:blue;font-size:17px;color:white;font-family:Helvetica,sans-serif;">We Trust in Spontaneity</div>-->
             </div>
 
@@ -171,19 +171,19 @@
                 <div class="col-lg-12">
                     <ul class="list-inline">
                         <li>
-                            <a href="#">Home</a>
+                            <a href="../">Home</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#about">About</a>
+                            <a href="../privacy.html">Privacy</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#services">Services</a>
+                            <a href="../terms.html">Terms</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a href="../aboutus.html">About Us</a>
                         </li>
                     </ul>
                     <p class="copyright text-muted small">Copyright &copy; Spontieapp 2016. All Rights Reserved</p>
